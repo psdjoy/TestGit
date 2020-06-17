@@ -1,6 +1,7 @@
 git config --global user.name "user_name"
 git config --global user.email email_address
 
+cd /GitHub_folder_pc
 git clone url_from_github
 ls
 cd Repository_name/
