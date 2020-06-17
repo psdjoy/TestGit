@@ -18,3 +18,10 @@ git push -u origin master
 git status
 git commit -m "message for another commit" file_name
 git push -u origin master
+
+
+#when edit global configuration
+
+git config --list
+git config --global --edit
+#press insert, change it, press esc, :wq to save
