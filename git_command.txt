@@ -25,3 +25,9 @@ git push -u origin master
 git config --list
 git config --global --edit
 #press insert, change it, press esc, :wq to save
+
+
+#download a specific file
+#go to the file. click raw. copy the url. now write in git bash
+
+curl -OL <file_url>
